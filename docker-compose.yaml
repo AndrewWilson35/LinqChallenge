@@ -1,0 +1,25 @@
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    environment:
+      - TZ=America/Chicago
+    ports:
+      - 9090:9090
+      - 8000:8000
+    volumes:
+      - "/mnt/c/Users/Androokie/LinqProject/prometheus.yaml:/etc/prometheus/prometheus.yml"
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    environment:
+      - TZ=America/Chicago
+    ports:
+      - 3000:3000
+  kafka:
+    image: apache/kafka:latest
+    container_name: kafka
+    command: /etc/kafka/docker/run && /bin/sh -c /bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+    ports:
+      - 9092:9092
+    
