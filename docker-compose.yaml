@@ -8,7 +8,7 @@ services:
       - 9090:9090
       - 8000:8000
     volumes:
-      - "/mnt/c/Users/Androokie/LinqProject/prometheus.yaml:/etc/prometheus/prometheus.yml"
+      - "./prometheus.yaml:/etc/prometheus/prometheus.yml"
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
