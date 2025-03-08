@@ -1,0 +1,8 @@
+Requirements: 
+
+The Latest Version of Python
+Kafka-Python
+Prometheus_Client
+Way to run two Python files at once 
+Way to run Linux command lines 
+Docker Desktop for your OS 
