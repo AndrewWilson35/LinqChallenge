@@ -19,6 +19,6 @@ Challenge for Linq Software Engineering Internship
 
 9. Using the top left menu, navigate to Dashboards. Click new, then import. Import the JSON file from this repository.
 
-10. Go to edit the imported dashboard. Click the Data source bar, then choose the prometheus data connection made in step 8. After this, the running sums of each color should populate! 
+10. Go to edit the imported dashboard. Click the Data source bar, then choose the prometheus data connection made in step 8. Then, save the file, and pull up the dashboard again. After this, the running sums of each color should populate! 
 
    
