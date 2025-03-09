@@ -16,19 +16,13 @@ ysc = Counter("YellowCounter", "Sum of Yellow")
 psc = Counter("PurpleCounter", "Sum of Purple")
 osc = Counter("OrangeCounter", "Sum of Orange")
 
-numRed = 0
-numBlue = 0
-numGreen = 0
-numYellow = 0
-numPurple = 0
-numOrange = 0
-
-rgc = Gauge("RedGauge", "Average of Red")
-bgc = Gauge("BlueGauge", "Average of Blue")
-ggc = Gauge("GreenGauge", "Average of Green")
-ygc = Gauge("YellowGauge", "Average of Yellow")
-pgc = Gauge("PurpleGauge", "Average of Purple")
-ogc = Gauge("OrangeGauge", "Average of Orange")
+#These are here for some prior fiddling around, replace with Histograms for averages most likely. 
+#rgc = Gauge("RedGauge", "Average of Red")
+#bgc = Gauge("BlueGauge", "Average of Blue")
+#ggc = Gauge("GreenGauge", "Average of Green")
+#ygc = Gauge("YellowGauge", "Average of Yellow")
+#pgc = Gauge("PurpleGauge", "Average of Purple")
+#ogc = Gauge("OrangeGauge", "Average of Orange")
 
 for msg in consumer:
     print(msg.timestamp, msg.value)
