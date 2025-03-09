@@ -1,7 +1,7 @@
 # LinqChallenge
 Challenge for Linq Software Engineering Internship
 
-1. Ensure that all requirements listed in requirements.txt are installed
+1. Ensure that all requirements listed in the necesarryprograms.txt file are installed. One can use the requirements.txt file to download the Python libraries in one swoop, or they can be downloaded seperately. 
 
 2. Install the two Python files, the two yaml files, and the database JSON file from this repository. 
 
