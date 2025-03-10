@@ -6,3 +6,4 @@ Prometheus_Client
 Way to run two Python files at once 
 Way to run Linux command lines 
 Docker Desktop for your OS 
+A decent internet connection, it times out when I tested it in an area with a really bad connection
